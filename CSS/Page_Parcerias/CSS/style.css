@@ -1,0 +1,39 @@
+main section {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 50px;
+}
+
+main section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    border: 3px solid #000;
+    margin: 0 auto 20px auto;
+}
+
+main section div {
+    margin: 0 auto 20px auto;
+    width: 267px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+}
+
+main section div p {
+    text-align: center;
+}
+
+main section div a {
+    text-decoration: none;
+    color: rgb(194, 194, 194);
+}
+
+main section div a:hover {
+    text-decoration: underline;
+}

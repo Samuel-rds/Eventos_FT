@@ -1,0 +1,77 @@
+#mainNavEvents {
+    display: flex;
+    justify-content: center;
+    font-size: 23.8px;
+
+    width: calc(100% - 85px);
+    margin: 0 50px;
+}
+
+#mainNavEvents ul {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    list-style: none;
+
+    flex-wrap: wrap;
+}
+
+#mainNavEvents li {
+    width: auto;
+    margin-bottom: 15px;
+}
+
+#mainNavEvents a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+#mainNavEvents a:hover {
+    background: linear-gradient(to bottom left, #0f0f11, #18182b);
+    color: #fff;
+}
+
+main section.gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin: 0 50px;
+
+    gap: 20px;
+}
+
+main section div.evento {
+    margin: 55px auto 20px auto;
+    background-color: #bcbcbc;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 20px;
+}
+
+main section div.evento img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+main section div.evento p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+main section div.evento p.date-location {
+    font-size: 0.9rem;
+    color: #667;
+}

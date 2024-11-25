@@ -1,0 +1,41 @@
+ul{
+    list-style: none;
+}
+
+main section.cabeçalho_section header h3, main section.cabeçalho_section ul{
+    margin-left: 50px;
+}
+
+main .cabeçalho_section{
+    width: 65%;
+}
+
+main .deQuem{
+    width: 35%;
+}
+
+main section h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: rgb(145, 145, 145);
+}
+
+main section ul li{
+    background-color: #EBEBEB;
+    width: 73.31%;
+    
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20.67px;
+    font-size: 18px;
+    font-weight: 800;
+
+    padding: 16px;
+    
+    display: flex;
+    word-break: break-all;
+}

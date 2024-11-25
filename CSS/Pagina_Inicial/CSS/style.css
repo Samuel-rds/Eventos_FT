@@ -1,0 +1,36 @@
+main section h1{
+    display: flex;
+
+    font-size: 40px;
+    font-weight: 600;
+
+    margin: 0 50px;
+    margin-bottom: 20px;
+    color: rgb(145, 145, 145);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.evento {
+    text-align: center;
+    width: 300px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.evento p {
+    font-size: 14px;
+    padding: 5px;
+}
